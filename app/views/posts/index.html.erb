@@ -1,0 +1,4 @@
+<h1><%@posts.each do |post|%></h1>
+<h1><%=link_to post.title, post_path(post)%></h1>
+<h1><%=link_to post.description,post_path(post)%></h1>
+<h1><%end%></h1>
